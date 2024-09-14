@@ -28,16 +28,13 @@
     text-decoration: none;
     font-size: 20px;
     gap: 10%;
+    padding-right: 5%;
 }
 
 .headerBox2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.navMenu2{
-    margin-right: 7%;
 }
 
 .navMenu1, .navMenu2:hover {
@@ -111,7 +108,6 @@ p {
     width: 100%;
     display: flex;
     flex-direction: row;
-
     justify-content: space-evenly;
 }
 
@@ -178,25 +174,67 @@ label{
 input{
     background-color: yellow;
     border: 2px solid black;
-    padding: 3px 30px;
+    padding: 10px 30px;
     font-size: 15pt;
     font-weight: bold;
 
 }
 
 /* carts */
+
 .cartDetail{
-    width: 225px;
-    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-left: 38%; 
+    padding-right: 10%;
 }
 
-.shoppingCart{
-    font-size: 20px;
+.price{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
 }
-
 .cartImg{
-    width: 100px;
+    width: 200px;
     border: 2px solid black;
+}
+
+.cartlist1{
+    display:flex;
+    flex-direction: row;
+}
+
+.cartlist2{
+    display:flex;
+    flex-direction: row;
+}
+
+.textgroup1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textgroup2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textgroup1-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20%;
+}
+
+.textgroup2-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
 }
 
 .remove{
@@ -212,8 +250,43 @@ input{
 }
 
 .cartLine {
-    width: 600px;
     height: 3px;
     color: black;
     background: black;
+}
+
+.CartItem{
+    font-size: 18px;
+}
+
+p.remove {
+    font-size: 20px;
+    margin-left: 0%;
+    text-decoration: underline;
+}
+
+.totalPrice{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.priceCart1{
+    padding-left: 33%;
+}
+
+.priceCart2{
+    padding-right: 2%;
+}
+
+.CB {
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#cartMenu {
+    font-weight: bold;
+    background-color: yellow;
 }

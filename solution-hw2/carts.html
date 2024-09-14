@@ -8,40 +8,67 @@
 
 <body>
   <header>
-    <a href= "ProductDetailPage.html"><img class = "logoImg" src="/solution-hw1/assets/logo/logo-01.svg"
-      alt= "logo"/></a>    
-    <hr class= "line"/>
-  </body>
-</html>
-
-<main>
-  <nav>
-    <a class= "navMenu" href="Productgallery.html">PRODUCTS</a><br>
-    <a class= "navMenu" href="carts.html">CARTS</a>
-  </nav>
-</main>
-
-<section class= "cartDetail">
-    <p class= "shoppingCart">ShoppingCart</p>
-        <div class= "cartList"> 
-            <img class= "cartImg" 
-            src="./assets/products/original-cinnamon-roll.jpg"
-            alt="Original cinnamon roll">
-            <p class="remove">Remove</p>
-            <p class="CartItem">Original Cinnamon Roll Glazing: Keep original</p>
-            <p class="PackQ">Pack Size:1</p>
-            <p class="priceCart">$2.49</p>
-            <br><br>
-            <img class= "cartImg" 
-            src="./assets/products/double-chocolate-cinnamon-roll.jpg"
-            alt="Double chocolate cinnamon roll">
-            <p class="remove">Remove</p>
-            <p class="CartItem">Double Chocolate Cinnamon Roll Glazing: Sugar milk</p>
-            <p class="PackQ">Pack Size:6</p>
-            <p class="priceCart">$27.45</p>
+    <div class="headerBox">
+      <div class="headerBox-left">
+        <a href="Productgallery.html"><img class = "logoImg" src="../solution-hw1/assets/logo/logo-01.svg"  
+          alt="logo"></a>      
       </div>
-</section>
+        <div class="headerBox-right">
+          <div class="headerBox1">  
+              <a class="navMenu2" href="Productgallery.html">PRODUCTS</a>
+              <a class="navMenu2" id= "cartMenu" href="carts.html">CARTS</a>
+          </div>
+          <div class="headerBox2"><hr></div>
+          <div class="headerBox3"><p> Our hand-made cinnamon rolls </p></div>
+          </div>  
+        </div>                                                                                                                                                                                                                        
+    </div>
+  </header> 
 
-<hr class = "cartLine"/>
-<p class = "priceCart">Total: $29.94</p>
-<input type="button" value="Checkout">
+  <section class= "cartDetail">
+    <div class= "cartlist">
+      <div class="cartlist1"> 
+        <img class= "cartImg" 
+        src="/assets/products/original-cinnamon-roll.jpg"
+        alt="Original cinnamon roll">
+          <div class="textgroup1">
+            <p class="CartItem">Original Cinnamon Roll <br>Glazing: Keep original</p>
+            <p class="CartItem">Pack Size:1</p>
+          </div>
+          <div class="textgroup1-1">
+            <p class="priceCart">$2.49</p>
+          </div>
+        </div>
+      </div>
+      <p class="remove">Remove</p>
+      <br>
+      <div class="cartlist2"> 
+        <img class= "cartImg" 
+        src="/assets/products/double-chocolate-cinnamon-roll.jpg"
+        alt="Double chocolate cinnamon roll">
+          <div class="textgroup2">
+            <p class="CartItem">Double Chocolate Cinnamon Roll<br>Glazing: Sugar milk</p>
+            <p class="CartItem">Pack Size:6</p>
+          </div>
+          <div class="textgroup2-1">
+            <p class="priceCart">$27.45</p>
+          </div>
+      </div>
+      <p class="remove">Remove</p>
+    </div>
+      <hr class = "cartLine">
+    <div class = "totalPrice">
+      <div class = "priceCart1">
+        <p>Total</p>
+      </div>
+      <div class = "priceCart2">
+        <p>$29.94</p>
+      </div>
+    </div> 
+    <br><br>
+    <div class = "CB">
+      <input type="button" value="Checkout">      
+    </div>
+  </section>
+</body>
+</html>
