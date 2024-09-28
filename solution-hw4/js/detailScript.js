@@ -63,3 +63,30 @@ function updatePrice() {
 
 glazingSelect.addEventListener('change', updatePrice);
 packSizeSelect.addEventListener('change', updatePrice);
+
+// Add to Cart
+class Roll {
+    constructor(rollType, rollGlazing, packSize, basePrice) {
+        this.type = rollType;
+        this.glazing = rollGlazing;
+        this.size = packSize;
+        this.basePrice = basePrice;
+    }
+}
+
+const cart = [];
+
+const addToCartButton = document.getElementById('addToCartBtn');
+
+addToCartButton.addEventListener('click', function() {
+    const rollType = document.getElementById('roll-name').textContent.split(' ')[0]; 
+    const glazing = document.getElementById('glazingSelect').value; 
+    const packSize = document.getElementById('packSizeSelect').value;
+    const basePrice = rolls[rollType].basePrice; 
+
+    const rollItem = new Roll(rollType, glazing, packSize, basePrice);
+
+    cart.push(rollItem);
+
+    console.log(cart);
+});
