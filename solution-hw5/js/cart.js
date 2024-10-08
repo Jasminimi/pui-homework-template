@@ -39,35 +39,61 @@ const cart = [
 console.log(cart);
 
 function displayCartItems() {
+    const cartItemsContainer = document.querySelector('.cartItemContainer');
 
-    const cartContainer = document.querySelector('.container');
-
-    if(cartContainer) {
-    cartContainer.innerHTML = '';
-    }
+    cartItemsContainer.innerHTML = '';
 
     cart.forEach((roll, index) => {
-        const rollItem = document.createElement('div');
-        rollItem.className = 'cartlist';
-        rollItem.innerHTML = `
-            <div class="cartlist1">
-                <img class="cartImg" src="../solution-hw1/assets/products/${roll.type.toLowerCase()}-cinnamon-roll.jpg" alt="${roll.type} cinnamon roll">
-                <div class="textgroup1">
-                    <p class="CartItem">${roll.type} Cinnamon Roll <br>Glazing: ${roll.glazing}</p>
-                    <p class="CartItem">Pack Size: ${roll.size}</p>
-                </div>
-                <div class="textgroup1-1">
-                    <p class="priceCart">$${roll.totalPrice.toFixed(2)}</p>
-                </div>
-            </div>
-            <p class="remove" onclick="removeItem(${index})">Remove</p>
-        `;
 
-        cartContainer.appendChild(rollItem);
+        const rollItem = document.createElement('div');
+        rollItem.classList.add('cartlist');
+
+
+        const imgElement = document.createElement('img');
+        imgElement.classList.add('cartImg');
+        imgElement.src = `../solution-hw1/assets/products/${roll.type.toLowerCase()}-cinnamon-roll.jpg`;
+        imgElement.alt = `${roll.type} cinnamon roll`;
+
+
+        const textGroup = document.createElement('div');
+        textGroup.classList.add('textgroup1');
+        
+        const rollName = document.createElement('p');
+        rollName.classList.add('CartItem');
+        rollName.innerHTML = `${roll.type} Cinnamon Roll <br>Glazing: ${roll.glazing}`;
+        
+        const rollPackSize = document.createElement('p');
+        rollPackSize.classList.add('CartItem');
+        rollPackSize.textContent = `Pack Size: ${roll.size}`;
+        
+ 
+        textGroup.appendChild(rollName);
+        textGroup.appendChild(rollPackSize);
+
+
+        const priceElement = document.createElement('p');
+        priceElement.classList.add('priceCart');
+        priceElement.textContent = `$${roll.totalPrice.toFixed(2)}`;
+
+  
+        const removeBtn = document.createElement('button');
+        removeBtn.classList.add('remove');
+        removeBtn.textContent = 'Remove';
+        removeBtn.onclick = () => removeItem(index);
+
+
+        rollItem.appendChild(imgElement);
+        rollItem.appendChild(textGroup);
+        rollItem.appendChild(priceElement);
+        rollItem.appendChild(removeBtn);
+
+
+        cartItemsContainer.appendChild(rollItem);
     });
 
     updateTotalPrice();
 }
+
 
 function updateTotalPrice() {
     const totalPrice = cart.reduce((acc, roll) => acc + roll.totalPrice, 0);
