@@ -39,7 +39,7 @@ const cart = [
 console.log(cart);
 
 function displayCartItems() {
-    const cartItemsContainer = document.querySelector('.cartItemContainer');
+    const cartItemsContainer = document.querySelector('.container');
 
     cartItemsContainer.innerHTML = '';
 
