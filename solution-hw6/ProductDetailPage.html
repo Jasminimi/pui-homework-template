@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Product Detail Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/rollsData.js" defer></script>
+  <script src="js/detailScript.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="headerBox">
+      <div class="headerBox-left">
+        <a href="Productgallery.html"><img class="logoImg" src="../solution-hw1/assets/logo/logo-01.svg"  
+          alt="logo"></a>      
+      </div>
+      <div class="headerBox-right">
+        <div class="headerBox1">  
+          <a class="navMenu1" href="Productgallery.html">PRODUCTS</a>
+          <a class="navMenu2" href="carts.html">CARTS</a>
+        </div>
+        <div class="headerBox2"><hr></div>
+        <div class="headerBox3"><p id="roll-name"> Loading... </p></div>
+      </div>  
+    </div>
+  </header> 
+
+  <section class="pdpBox">
+    <div class="pdpBox1"> 
+      <img id="roll-image" class="pdpimg" src="" alt="cinnamon roll image">
+    </div>
+    <div class="pdpBox2">
+      <p class="productDiscription">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+      <div class="options">
+        <div class="option1"> 
+          <label for="glazing">Glazing:</label>
+          <select id="glazing"></select> 
+          <br>
+        </div>
+        <div class="option2"> 
+          <label for="packSize">Pack Size:</label>
+          <select id="packSize"></select> 
+          <br>
+        </div>
+      </div>
+
+      <div class="addCart">
+        <p id="priceDisplay" class="price">$0.00</p>
+        <input type="button" value="Add to Cart" id="addToCartBtn" disabled>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
