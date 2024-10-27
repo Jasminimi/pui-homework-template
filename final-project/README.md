@@ -217,7 +217,7 @@ I want to convey my design philosophy, process, and the impact of my work throug
 
 ### *Idea 2*
 
-![title for sketch1](images/sketch1.png)
+![title for sketch1](images/sketch2.png)
 
 * What is the basic idea of your final project? (1-2 sentences)
 The Recycling Information Tool aims to provide users with accurate and accessible information on how to recycle various materials based on their local regulations. The goal is to create a user-friendly platform that helps individuals navigate the complexities of recycling and make informed decisions.
@@ -230,7 +230,7 @@ The tool will convey essential recycling guidelines tailored to local regulation
 
 ### *Idea 3*
 
-![title for sketch1](images/sketch1.png)
+![title for sketch1](images/sketch3.png)
 
 * What is the basic idea of your final project? (1-2 sentences)
 The basic idea of my Sleep Management Web Application is to help users track and improve their sleep habits by providing personalized insights and recommendations based on their sleep patterns. This application aims to create a supportive environment for users to understand their sleep behaviors and make informed changes.
