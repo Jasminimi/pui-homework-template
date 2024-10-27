@@ -206,20 +206,41 @@ How would you use Generative AI responsibly?
 
 ![title for sketch1](images/sketch1.png)
 
-Add a few sentences about your design. Briefly state the motivation of each project idea. Example questions to answer:
-
-* What is the basic idea of your final project? (1-2 sentences)  
-* How do you plan to make your design interactive and engaging?  
-* How do you plan to make your design accessible?  
+* What is the basic idea of your final project? (1-2 sentences)
+The basic idea of my final project is to create a UX portfolio website that showcases my design skills, projects, and philosophy. It will serve as an engaging platform to highlight my journey as a   designer and demonstrate my approach to user experience.
+* How do you plan to make your design interactive and engaging?
+I plan to make the design interactive and engaging by incorporating dynamic elements such as interactive project previews, hover effects, and smooth animations. This will create a lively browsing experience that encourages users to explore my work more deeply.
+* How do you plan to make your design accessible?
+To ensure accessibility, I will use high-contrast colors, provide descriptive alt text for images, and implement keyboard navigation and screen-reader compatibility. This approach will make the website usable for all visitors, regardless of their abilities.
 * What information do you specifically want to convey and include on your website?
+I want to convey my design philosophy, process, and the impact of my work through detailed case studies for each project. The website will also include my skills, experiences, and contact information, making it easy for potential employers or collaborators to understand my strengths and reach out.
 
 ### *Idea 2*
 
-…
+![title for sketch1](images/sketch1.png)
+
+* What is the basic idea of your final project? (1-2 sentences)
+The Recycling Information Tool aims to provide users with accurate and accessible information on how to recycle various materials based on their local regulations. The goal is to create a user-friendly platform that helps individuals navigate the complexities of recycling and make informed decisions.
+* How do you plan to make your design interactive and engaging?
+To enhance user engagement, the tool will feature interactive elements such as dropdown menus and search functions that allow users to quickly find recycling guidelines for specific materials. Additionally, incorporating visuals and icons will simplify complex information, making it easy to understand at a glance.
+* How do you plan to make your design accessible?
+Accessibility is crucial for this tool, so I will ensure it is designed to be usable by everyone. This includes implementing high-contrast colors, readable fonts, and keyboard navigation, as well as providing alt text for all images and icons to support screen readers.
+* What information do you specifically want to convey and include on your website?
+The tool will convey essential recycling guidelines tailored to local regulations, including what materials can be recycled, how to prepare items for recycling, and links to local recycling programs. It will also include FAQs and tips to encourage responsible recycling practices, ensuring users have all the information they need to recycle effectively.
 
 ### *Idea 3*
 
-…
+![title for sketch1](images/sketch1.png)
+
+* What is the basic idea of your final project? (1-2 sentences)
+The basic idea of my Sleep Management Web Application is to help users track and improve their sleep habits by providing personalized insights and recommendations based on their sleep patterns. This application aims to create a supportive environment for users to understand their sleep behaviors and make informed changes.
+* How do you plan to make your design interactive and engaging?
+To create an interactive and engaging design, I will incorporate features such as visually appealing graphs and charts to represent sleep data, reminders for users to log their sleep, and gamification elements like progress tracking and achievements. These elements will encourage users to consistently engage with the application and track their sleep habits.
+* How do you plan to make your design accessible?
+I will prioritize accessibility by ensuring that the application uses clear typography, high-contrast colors, and intuitive navigation. Additionally, I will implement screen-reader compatibility and provide alternative text for images, making the app usable for all individuals regardless of their abilities.
+* What information do you specifically want to convey and include on your website?
+I aim to convey key information about users' sleep patterns, insights on improving sleep quality, and personalized recommendations. The application will include features like sleep tracking logs, educational resources on sleep hygiene, and a user-friendly dashboard that displays relevant data and suggestions in an easy-to-understand format.
+
 
 ## Feedback Summary
 
