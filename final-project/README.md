@@ -244,9 +244,21 @@ I aim to convey key information about users' sleep patterns, insights on improvi
 
 ## Feedback Summary
 
-Summarize all the critiques you received during the lab session (\~300 words). 
+In the critique of my portfolio website, several important points were raised regarding the design and content of my projects. One major piece of feedback focused on my landing page, which currently highlights only my first project without a clear main page. Some reviewers mentioned that this could give the impression of an incomplete site. To enhance user engagement and provide a more comprehensive overview of my work, they suggested adding a popup window featuring a brief "About Me" section. This would help visitors understand my background, expertise, and the overall purpose of my portfolio, which I think is a great idea.
+
+For my recycling information tool, the critique emphasized the need for localized information specific to Pittsburgh. Reviewers pointed out that I should ensure data availability and accuracy, encouraging me to think about the questions users might have when interacting with the tool. They suggested incorporating scenario-based problem-solving features to enhance interactivity, which could really help users understand how to apply the information I provide.
+
+Regarding my sleep management tool, the feedback indicated a need for better organization. Critics recommended placing the calculator prominently on the main page to make it the focal point of the experience. Additionally, they advised moving resources and reviews to a menu to streamline the layout. I see how this could simplify the design while ensuring all relevant information is still accessible.
+
+Overall, this feedback gives me a clear roadmap for enhancing my portfolio and projects, focusing on clarity, interactivity, and user-centric design. I’m excited to implement these suggestions to create a more engaging experience for my visitors!
 
 ## Feedback Digestion
 
-Digest the feedback you got in the lab (\~300 words). Indicate which critique you will act on in your next design and why you chose to incorporate/dismiss pieces of critique.
+In the recent lab critique, several important points were raised regarding the design and content of my portfolio website. One major piece of feedback focused on my landing page, which currently highlights only my first project without a clear main page. Reviewers mentioned that this could give the impression of an incomplete site, which is not the impression I want to convey to potential employers or collaborators. To enhance user engagement and provide a more comprehensive overview of my work, they suggested adding a popup window featuring a brief "About Me" section. I believe this is a valuable suggestion, as it would help visitors quickly understand my background, expertise, and the overall purpose of my portfolio.
+
+Another critique pointed out the need for better organization within my projects. Specifically, they recommended rethinking the layout of my recycling information tool by ensuring that data availability is clear and that it addresses the questions users might have. While I appreciate this feedback and see its importance, I plan to incorporate it in a later iteration rather than in my immediate next design. My focus will be on refining the overall portfolio structure first, as a solid foundation is crucial.
+
+For my sleep management tool, the suggestion to place the calculator prominently on the main page resonates with me, as it aligns with the goal of creating a user-friendly experience. However, I will hold off on this adjustment for now, as my primary focus is on implementing the changes to the portfolio.
+
+In summary, I will prioritize the feedback regarding the landing page and the "About Me" section for my next design iteration. These changes will help create a more engaging and informative experience for visitors, ultimately making my portfolio feel more complete and polished.
 
