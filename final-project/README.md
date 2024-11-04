@@ -171,24 +171,38 @@ Overall, this feedback helped refine my final design into a more user-friendly a
 
 ## Milestones
 
-Outline weekly milestones to plan your expected implementation progress until the end of the semester (\~300 words). 
+As I progress through the semester, my implementation plan will unfold over several weeks. In Week 9, I will focus on finalizing and submitting my FP1 assignment while reviewing feedback from the lab session to identify areas for improvement in my portfolio website. By Week 10, I aim to submit my FP2 assignment and conduct usability testing on the updated design, analyzing user feedback to inform further refinements. In Week 11, I will implement additional changes based on usability test findings, focusing on enhancing mobile responsiveness and optimizing content presentation. Week 12 will involve a peer review session, where I will gather insights on the overall usability and functionality of my website, allowing me to make necessary adjustments. With Thanksgiving break in Week 13, I plan to reflect on my design journey and compile key insights. Finally, in Week 14, I will finalize my portfolio for submission as part of the FP4 assignment, ensuring it effectively showcases my work and the evolution of my design process. This structured approach will keep me on track to deliver a polished, user-centered portfolio by the end of the semester.
 
 ### *Implementation Plan*
 
-- [ ] Week 9 Oct 28 \- Nov 1:
+- [X] Week 9 Oct 28 \- Nov 1:
   - [X] FP1 due
-  - [ ] ...
+  - [X] Gather feedback on FP1 and identify areas for improvement.
   
 - [ ] Week 10 Nov 4 \- Nov 8:   
-  - [ ] FP2 due
+  - [X] FP2 due
+  - [ ] Conduct a usability test on the revised portfolio website to evaluate the new changes.
+  - [ ] Analyze user feedback from the usability test to identify further improvements.
+  - [ ] Start working on the next set of enhancements based on feedback.
 
-- [ ] Week 11 Nov 11 \- Nov 15:  
-- [ ] Week 12 Nov 18 \- Nov 22:   
+- [ ] Week 11 Nov 11 \- Nov 15:
+  - [ ] Implement any additional design changes identified during the usability test.
+  - [ ] Focus on optimizing the website for mobile responsiveness and performance.
+  - [ ] Create a presentation to showcase the portfolio website and its evolution.
+        
+- [ ] Week 12 Nov 18 \- Nov 22:
+  - [ ] Conduct a peer review session to gather final feedback on the portfolio.
+  - [ ] Make any last-minute adjustments based on peer feedback.
+  - [ ] Prepare a comprehensive report summarizing the design process, feedback received, and final outcomes.
+        
 - [ ] Week 13 Nov 25 \- Nov 29:  
-
-  - [ ] Thanksgiving  
+  - [ ] Thanksgiving
+  - [ ] Reflect on the design journey and compile insights for future projects.
+        
 - [ ] Week 14 Dec 2 \- Dec 6:  
-  - [ ] FP4 due 
+  - [ ] FP4 due
+  - [ ] Ensure the portfolio website is polished and ready for presentation.
+  - [ ] Schedule a final review session with your instructor or peers to showcase the completed project and discuss your design process.
 
 ### *Libraries and Other Components*
 
@@ -202,7 +216,6 @@ List the JS libraries and other components (if applicable) that you plan to use.
 *Font Awesome: For incorporating scalable icons and visual elements easily.
 *React Router: To handle navigation between different pages and sections of the portfolio.
 *styled-components: For writing CSS directly in JavaScript, allowing for better component styling and maintainability.
-
 
 
 ## Generative AI Use Plan
