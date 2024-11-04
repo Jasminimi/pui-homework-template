@@ -131,30 +131,43 @@ I'm motivated by my transition from graphic design to UX design. I wanted to mov
 
 ### *Prototype 1*
 
-![title for prototype1](images/prototype1.png)
-![title for prototype1](images/prototype2.png)
+![Landing Page](images/prototype1.png)
 
-
-A brief description and summary of the user feedback (\<100 words, 2 images) 
+I conducted usability testing on my portfolio website with users navigating sections like About, Projects, and Resume. Feedback was positive, noting the clean design, intuitive navigation, and appealing project displays. However, users recommended larger font sizes for better readability and more interactive features for engagement. 
 
 ### *Prototype 2*
 
-![title for prototype1](images/finalPrototype1.png)
-![title for prototype1](images/finalPrototype2.png)
-
-A brief description and summary of the user feedback (\<100 words, 2 images
+![Project Page](images/prototype2.png)
+Most peers mentioned that the menu section felt too cluttered and suggested changing the background and highlighting the project menu. They appreciated the overall layout but recommended using a unified white background for a cleaner look.
 
 ## Usability Test
 
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
+During the evaluation and usability testing of my portfolio website, I gathered valuable feedback from a diverse set of users. Each participant was given an overview of the website’s purpose and guided through tasks such as navigating the About, Projects, and Resume sections to assess usability and overall design.
+
+Feedback Highlights: The responses were largely positive. Users commended the clean design and intuitive navigation, which made browsing the site straightforward. They found the project presentations particularly appealing, noting that the visual elements effectively highlighted my work. However, there were also key areas for improvement. Several users mentioned that the font sizes were too small, which impacted readability. Others suggested incorporating interactive features to make the site more dynamic and engaging.
+
+Design Updates and Influence on Final Design: I prioritized user feedback to refine the website’s design and enhance the overall user experience. The recommendation to increase font sizes was directly implemented, with adjustments to typography ensuring better readability across all devices. Additionally, I simplified the navigation by reworking the menu structure to make it more accessible and less cluttered. This change aimed to streamline the user journey and help visitors quickly find the sections they were looking for.
+
+The suggestion to add interactive elements inspired new directions for the project. I incorporated subtle hover effects and clickable elements that added a layer of interactivity, making the experience more engaging and visually stimulating. These updates not only responded to user feedback but also aligned with modern web design practices.
+
+Overall, the usability testing provided insights that were crucial to the final design. Implementing the feedback led to a more user-friendly, accessible, and engaging website that better meets the needs and expectations of its audience.
 
 ## Updated Designs
+
+![Landing Page](images/finalPrototype1.png)
+![Project Page](images/finalPrototype2.png)
 
 Show screenshots of your updated design based on the user feedback (\<100 words, \~2 images).
 
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words). 
+During the lab session, I received a mix of positive feedback and constructive criticism on my final design. Users appreciated the visual consistency and clean layout, especially the use of bold, readable typography and the clear sections highlighting different projects. The overall aesthetic was noted as modern and professional, aligning well with the intended showcase purpose. However, participants pointed out a few areas for improvement that influenced subsequent adjustments.
+
+Feedback Highlights: One major suggestion was to emphasize important project sections more distinctively. Users felt that the current visual differentiation could be enhanced to make featured projects, like the Paris Olympics section, stand out more clearly. They also recommended simplifying the navigation further, making it easier for users to switch between sections such as About, Projects, and Resume without confusion. The addition of subtle interactive cues, like hover animations, was suggested to enhance the engagement and usability of the site.
+
+Design Influences: I implemented this feedback by updating the project menu to include highlighted titles and distinct visuals, drawing users’ attention to key projects. The menu structure was further streamlined for ease of navigation, ensuring users could access main sections with fewer clicks. Interactive features such as hover effects were added to clickable elements, enhancing the user experience with visual feedback during interactions.
+
+Overall, this feedback helped refine my final design into a more user-friendly and visually engaging portfolio, striking a balance between aesthetics and functionality. The session confirmed the importance of user-centered adjustments and reinforced that even subtle design changes could significantly impact the overall user experience.
 
 ## Milestones
 
@@ -180,26 +193,39 @@ Outline weekly milestones to plan your expected implementation progress until th
 ### *Libraries and Other Components*
 
 List the JS libraries and other components (if applicable) that you plan to use. 
-* 
+* React.js: For building the user interface and creating reusable UI components efficiently.
+*Bootstrap: To implement responsive design and pre-styled components for faster development.
+*GSAP (GreenSock Animation Platform): For adding smooth animations and interactive elements to enhance user engagement.
+*Axios: For handling HTTP requests to fetch data if needed (e.g., pulling in dynamic content or API integration).
+*Lodash: For simplifying complex JavaScript functions and improving code efficiency.
+*Framer Motion: To create sophisticated animations for a more polished, interactive user experience.
+*Font Awesome: For incorporating scalable icons and visual elements easily.
+*React Router: To handle navigation between different pages and sections of the portfolio.
+*styled-components: For writing CSS directly in JavaScript, allowing for better component styling and maintainability.
+
 
 
 ## Generative AI Use Plan
 
-Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
+To implement my portfolio website, I’ll use Generative AI tools to make the process smoother and more efficient. I plan to use ChatGPT for brainstorming ideas, drafting content, and getting quick coding explanations, helping me save time and improve my writing. GitHub Copilot will be great for generating code snippets and automating simpler coding tasks, though I’ll still handle complex parts myself to ensure accuracy. DALL·E will help me create design concepts and mockups for inspiration, but I’ll use other tools for the final visuals. Notion AI will keep my project organized by summarizing notes and managing tasks, while Grammarly will make sure my writing is polished. By combining these tools with my own work, I hope to boost my productivity while maintaining quality and a personal touch.
 
 ### *Tool Use*
 
- What would you use? Edit the list given your plan. For each tool, explain briefly on what do you expect Generative AI to help you with and what might it not be able to help you with.
+*ChatGPT
+I will use it for brainstorming, writing help, and quick explanations because it boosts creativity and clarity.
+I will not use it for complex coding or deep problem-solving due to limited project-specific understanding.
 
-* ChatGPT  
-  * I will use it for … because it can help me …  
-  * I will not use it for … because it might not be able to help me with …   
-* GitHub Copilot  
-* ...
+*GitHub Copilot
+I will use it for code suggestions and automating simple tasks because it speeds up coding.
+I will not use it for complex logic or debugging as it might miss intricate details.
+
+*DALL·E
+I will use it for generating design concepts and visual ideas quickly.
+I will not use it for polished, brand-specific graphics due to limited precision.
 
 ### *Responsible Use*
 
-How would you use Generative AI responsibly? 
+Using Generative AI responsibly means being transparent about when and where AI-generated content is used and giving proper credit. It's important to check outputs carefully to avoid biases and ensure fairness, as well as to protect privacy by using anonymized data and following data regulations. I would make sure not to create any misleading or harmful content and always have human oversight to review and improve AI outputs for accuracy. Documenting AI use in projects is also essential for accountability. By following these practices, I’d use AI to boost creativity and productivity while staying ethical and trustworthy.
 
 ---
 
