@@ -132,12 +132,15 @@ I'm motivated by my transition from graphic design to UX design. I wanted to mov
 ### *Prototype 1*
 
 ![title for prototype1](images/prototype1.png)
+![title for prototype1](images/prototype2.png)
+
 
 A brief description and summary of the user feedback (\<100 words, 2 images) 
 
 ### *Prototype 2*
 
-![title for prototype1](images/prototype1.png)
+![title for prototype1](images/finalPrototype1.png)
+![title for prototype1](images/finalPrototype2.png)
 
 A brief description and summary of the user feedback (\<100 words, 2 images
 
