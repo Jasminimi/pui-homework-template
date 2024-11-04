@@ -125,7 +125,7 @@ Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-gener
 
 ## Project Description
 
-Briefly restate your motivation and a short description of your project.
+I'm motivated by my transition from graphic design to UX design. I wanted to move away from my old identity and present myself in a fresh way, so I focused on making my project look visually cool and eye-catching to really grab attention.
 
 ## High-Fi Prototypes
 
@@ -137,7 +137,9 @@ A brief description and summary of the user feedback (\<100 words, 2 images)
 
 ### *Prototype 2*
 
-…
+![title for prototype1](images/prototype1.png)
+
+A brief description and summary of the user feedback (\<100 words, 2 images
 
 ## Usability Test
 
