@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+//styling cursor
 document.addEventListener("DOMContentLoaded", () => {
     const cursor = document.getElementById("cursor");
 

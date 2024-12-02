@@ -71,8 +71,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 }
-
 
 .right {
     flex-direction: column;
@@ -389,3 +389,60 @@ footer .copyright {
 a, button, .hover-target {
     cursor: none;
 }
+
+.clip {
+    z-index: 2;
+    position: fixed;
+    bottom: 3rem;
+    left: 3rem;
+    width: 0rem;
+    height: 0rem;
+    border-radius: 100%;
+    background: var(--background);
+    transition: clip-path 1.5s ease-in-out;
+}
+
+.clip.anim {
+    width: 500vmax;
+    height: 500vmax;
+    bottom: calc(-250vmax + 3rem);
+    left: calc(-250vmax + 3rem);
+    clip-path: circle(100%);
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column; /* Changed to column layout */
+    align-items: left;
+    line-height: 0; /* Remove spacing between text */
+}
+
+
+
