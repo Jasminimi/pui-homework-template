@@ -93,7 +93,7 @@ main {
     display: block;
     opacity: 0.5;
     color: rgb(179, 179, 179);
-        text-decoration: none;
+    text-decoration: none;
     transition: color 0.3s ease, opacity 0.3s ease, font-style 0.3s ease;
 }
 
