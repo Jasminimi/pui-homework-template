@@ -5,20 +5,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const projectData = {
         "ChatGPT BIAS REPORTING": {
-            text: "AI and Ethics",
-            image: "chatgpt-bias-reporting.png"
+            text: "UX Research",
+            image: "images/comingSoon.png"
         },
         "SAV E-MOPAD": {
-            text: "Transportation Design",
-            image: "sav-e-mopad.png"
+            text: "Interaction Design",
+            image: "images/comingSoon.png"
         },
         "HUMAN ROBOT INTERACTION": {
-            text: "Robotic Engagement",
-            image: "robot-interaction.png"
+            text: "Robotics",
+            image: "images/comingSoon.png",
         },
         "PARIS OLYMPICS": {
-            text: "GRAPHIC DESIGN",
-            image: "images/stamp.png"
+            text: "Graphic Design",
+            image: "images/stamp.png",
         }
     };
 
@@ -92,3 +92,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+window.onload = function () {
+    var options = {
+        /* Add your configuration here, for example: */
+        account: "YOUR_ACCOUNT_ID", // Replace with your UserWay account ID
+        position: "bottom-right", // Adjust the widget position if needed
+        enableAnalytics: true, // Optional: enable analytics tracking
+    };
+
+    window.UserWayWidget.init(options);
+};

@@ -444,5 +444,50 @@ a, button, .hover-target {
     line-height: 0; /* Remove spacing between text */
 }
 
+/* General Button Styling */
+#speakButton,
+#stopButton {
+    background-color: #1e90ff; /* Bright blue for a modern look */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding for a comfortable click area */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px; /* Make text legible */
+    font-weight: bold; /* Emphasize button text */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    margin-top: 10px; /* Add space between the button and other elements */
+}
+
+/* Hover Effects */
+#speakButton:hover,
+#stopButton:hover {
+    background-color: #104e8b; /* Darken the button on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Intensify shadow */
+}
+
+/* Active State */
+#speakButton:active,
+#stopButton:active {
+    background-color: #0a2742; /* Darker shade when clicked */
+    transform: scale(0.95); /* Slightly shrink the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow */
+}
+
+/* Add a glowing effect when focused (for accessibility) */
+#speakButton:focus,
+#stopButton:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 8px rgba(30, 144, 255, 0.8); /* Blue glow effect */
+}
+
+/* For consistent positioning */
+#speakButton-container {
+    display: flex;
+    gap: 10px; /* Space between buttons if multiple */
+    margin-top: 20px;
+}
 
 
