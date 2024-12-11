@@ -34,6 +34,8 @@ header {
 .name {
     font-size: 36px; /* Increased font size */
     font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
 
 nav {
@@ -162,6 +164,7 @@ main {
         text-align: center;
         font-size: 32px;
         margin-bottom: 10px;
+
     }
 }
 
@@ -418,8 +421,8 @@ a, button, .hover-target {
 }
 
 .inspiration-image img {
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     transition: transform 0.3s ease;
 }
 
