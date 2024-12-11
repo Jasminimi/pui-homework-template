@@ -91,14 +91,3 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-
-window.onload = function () {
-    var options = {
-        /* Add your configuration here, for example: */
-        account: "YOUR_ACCOUNT_ID", // Replace with your UserWay account ID
-        position: "bottom-right", // Adjust the widget position if needed
-        enableAnalytics: true, // Optional: enable analytics tracking
-    };
-
-    window.UserWayWidget.init(options);
-};

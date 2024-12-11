@@ -224,10 +224,6 @@ To implement my portfolio website, I’ll use Generative AI tools to make the pr
 
 ### *Tool Use*
 
-*ChatGPT
-I will use it for brainstorming, writing help, and quick explanations because it boosts creativity and clarity.
-I will not use it for complex coding or deep problem-solving due to limited project-specific understanding.
-
 *GitHub Copilot
 I will use it for code suggestions and automating simple tasks because it speeds up coding.
 I will not use it for complex logic or debugging as it might miss intricate details.
