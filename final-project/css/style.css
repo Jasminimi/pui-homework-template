@@ -92,7 +92,7 @@ main {
 .project-list a {
     display: block;
     opacity: 0.5;
-    color: gray;
+    color: rgb(179, 179, 179);
         text-decoration: none;
     transition: color 0.3s ease, opacity 0.3s ease, font-style 0.3s ease;
 }
