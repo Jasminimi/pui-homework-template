@@ -11,43 +11,113 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 
 ## Part 1: Website Description
 
-Describe your website (300 words).
+* Purpose of the Website  
+The purpose of this website is to showcase my portfolio as a UX and graphic designer, highlighting my skills, creative projects, and design process. It serves as a personal branding tool, helping me present my work to potential employers, clients, or collaborators. The website emphasizes accessibility, creativity, and responsiveness, ensuring a positive experience for all users.
 
-* What is the purpose of your website?   
-* Who is the target audience?  
-* What information do you convey with your website?   
-* How is it interesting and engaging? 
+* Target Audience  
+The primary target audience includes hiring managers, design professionals, and recruiters in the UX/UI and graphic design industries. Secondary audiences are fellow designers, educators, and students who may seek inspiration or collaboration opportunities. The website also caters to individuals interested in my unique perspective on design and innovation.
+
+* Information Conveyed  
+The website provides a comprehensive view of my professional journey, including my projects, design philosophies, and the tools I use. Each project is presented with clear explanations, high-quality visuals, and descriptions of the problem-solving approaches applied. Additionally, the site includes essential information like my resume, contact details, and any awards or recognitions, offering a complete picture of my capabilities.
+
+* Engagement and Interest  
+The website is designed to be visually compelling and interactive. Features like dynamic animations created with GSAP, accessible navigation using the UserWay widget, and a custom cursor enhance the user experience. Each project section includes engaging visuals, including inspiration boards and final deliverables, providing an immersive storytelling experience. Interactive elements such as hover effects, animations, and a clean, modern layout ensure the content is both engaging and easy to navigate. The website’s commitment to responsive design guarantees a seamless experience across devices, making it appealing and functional for a diverse audience.
+
+* Future Improvements  
+Currently, three out of the four featured projects are marked as "Coming Soon." This is because the final deliverables for those projects are expected to be completed this week. Once finalized, I plan to update the portfolio with high-resolution visuals and detailed descriptions of these projects. This will enhance the website’s comprehensiveness and provide a complete showcase of my design capabilities. Additional improvements, such as integrating dynamic data or API-driven content, may also be implemented to keep the portfolio fresh and relevant.
 
 ## Part 2: User Interaction
 
 How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
 
-1. Interaction type. Click on X on page Y / scroll on page X, etc.  
-2. 
+1. Landing on the Homepage
+Interaction Type: Automatic
+What happens: The user lands on the homepage and sees the header navigation, a dynamic introduction section, and interactive project thumbnails.
+How to reproduce: Open the website in a browser and observe the responsive layout and animations triggered on page load.
+
+2. Navigating Between Pages
+Interaction Type: Click
+What happens: The user clicks on navigation links in the header (About, Projects, or Resume) to move between different pages.
+How to reproduce: Click any navigation link and confirm that the linked page loads with its respective content.
+
+3. Viewing Project Details
+Interaction Type: Hover & Click
+What happens: The user hovers over a project thumbnail to reveal its title and an animation effect. Clicking on the project opens its detailed page.
+How to reproduce:
+Hover over any project thumbnail on the homepage to observe animations (e.g., zoom or text highlight).
+Click on a thumbnail to open its detail page.
+
+4. Scrolling Through Content
+Interaction Type: Scroll
+What happens: The user scrolls down to view sections like the inspiration board, project gallery, or footer.
+How to reproduce: Use the mouse wheel, trackpad, or scrollbar to scroll through the homepage or other content-heavy pages.
+
+5. Interactive Cursor Movement
+Interaction Type: Mouse Movement
+What happens: The custom cursor follows the user’s mouse movements, changing size or color when hovering over interactive elements.
+How to reproduce: Move the cursor over clickable elements like links or buttons to observe changes in cursor behavior.
+
+6. Accessibility Widget
+Interaction Type: Click
+What happens: The user clicks on the accessibility widget (powered by UserWay) to enable features like text resizing or color adjustments.
+How to reproduce: Locate the widget icon (usually in the corner) and click it to open the accessibility menu.
+
+7. Viewing "Coming Soon" Projects
+Interaction Type: Hover
+What happens: When the user hovers over a “Coming Soon” project, the title or tooltip indicates that more details will be added soon.
+How to reproduce: Hover over any project marked as “Coming Soon” on the project gallery.
+
+8. Exploring Animations
+Interaction Type: Hover & Click
+What happens: Dynamic animations (e.g., GSAP effects) trigger when the user interacts with buttons or navigates between sections.
+How to reproduce:
+Hover over navigation links to observe hover effects.
+Scroll or interact with buttons to see animations applied to elements.
 
 ## Part 3: External Tool
 
 Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
 
-1. Name of tool1  
-   * Why did you choose to use it over other alternatives? (2 sentences max)  
-   * How you used it? (2 sentences max)  
-   * What does it add to your website? (2 sentences max)  
-2. Name of tool2
+1. Name of Tool: GSAP (GreenSock Animation Platform)
+Why did you choose to use it over other alternatives?
+GSAP provides highly customizable animations with exceptional performance compared to alternatives like CSS animations. Its versatility and ease of integration with JavaScript make it ideal for creating dynamic, responsive animations.
+How you used it?
+GSAP was used to animate the custom cursor and add hover effects to interactive elements, such as navigation links and project thumbnails. These animations were applied to enhance visual engagement and smooth transitions.
+What does it add to your website?
+GSAP brings polished, professional animations that improve interactivity and user engagement. It ensures the website feels modern and visually appealing without compromising performance.
 
+2. Name of Tool: UserWay Accessibility Widget
+Why did you choose to use it over other alternatives?
+UserWay is a robust, ready-made solution that ensures WCAG compliance and accessibility without extensive custom coding. It offers essential accessibility features like text resizing, contrast adjustments, and screen reader compatibility in one package.
+How you used it?
+The UserWay widget was added via a script to the website, providing accessibility features for users who need additional support. It allows visitors to customize their experience according to their needs.
+What does it add to your website?
+The widget ensures the website is inclusive and accessible to a wider audience, enhancing usability for individuals with disabilities. It helps maintain compliance with accessibility standards effortlessly.
 ## Part 4: Design Iteration
 
-Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+During the design and development of my portfolio website, I made several iterations to improve user experience and visual appeal. Initially, I had a static layout with basic project links, but during implementation, I realized the importance of making the design more interactive. I incorporated animations using GSAP to make the website feel more dynamic and engaging, such as animating the custom cursor and adding hover effects to project thumbnails. Additionally, I adjusted the layout to be more responsive by refining the navigation and grid systems, ensuring that the website performs well on both large screens and mobile devices. I also enhanced the accessibility features by integrating the UserWay widget, ensuring that users with disabilities have a seamless experience. These changes were made to not only improve the website’s functionality but also to create a visually appealing, interactive, and inclusive user interface.
 
 ## Part 5: Implementation Challenge
 
-What challenges did you experience in implementing your website? (2-4 sentences max)
+WOne of the main challenges was ensuring that the website remained responsive across different devices while maintaining its design integrity. Creating smooth animations with GSAP and integrating the UserWay accessibility widget required careful attention to avoid conflicts and maintain performance. Additionally, managing project placeholders for "Coming Soon" sections while keeping the user interface engaging was another hurdle, as it required balancing interactivity with incomplete content.
 
 ## Part 6: Generative AI Use and Reflection
 
-Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
+GitHub Copilot
+* How I used it: GitHub Copilot was used primarily for code suggestions while implementing repetitive HTML structures and CSS styles. For instance, when creating the gallery section or applying responsive design breakpoints, Copilot provided useful snippets that saved significant time. Additionally, it helped with generating JavaScript functions for hover animations and event listeners.
+* Why I used it: I chose Copilot for its ability to accelerate the coding process by suggesting context-aware code. It allowed me to focus on higher-level design decisions while automating repetitive coding tasks.
+* What worked well: Copilot excelled at suggesting clean and readable code for simple functions, such as dynamic cursor animations or CSS tweaks.
+* What I avoided: I avoided relying on Copilot for more complex logic, such as debugging GSAP animations, as its suggestions occasionally lacked the specificity needed for my design goals.
 
-Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
+DALL·E
+* How I used it: I used DALL·E to quickly prototype potential design ideas, such as abstract background patterns or placeholder images for the "Coming Soon" project sections.
+* Why I used it: DALL·E allowed me to explore visual concepts rapidly without spending excessive time on initial drafts. This streamlined the brainstorming phase for design elements.
+* What worked well: The generated concepts sparked ideas that I refined into more polished visuals, ensuring consistency with the website’s aesthetic.
+* What I avoided: I did not use DALL·E for final designs, as the results often lacked the precision needed for brand-specific graphics.
+
+### **Reflection on Generative AI Use**
+Generative AI tools significantly enhanced my productivity throughout the project. GitHub Copilot streamlined the coding process, ChatGPT enriched the content and structure, and DALL·E facilitated rapid visualization of ideas. However, I remained cautious about relying too heavily on these tools for complex tasks, ensuring the final project met my standards of quality and originality. This experience highlighted how AI can act as a powerful assistant, complementing human creativity and expertise.
+
 
 ### Usage Experiences by Project Aspects
 
@@ -181,42 +251,34 @@ As I progress through the semester, my implementation plan will unfold over seve
   
 - [ ] Week 10 Nov 4 \- Nov 8:   
   - [X] FP2 due
-  - [ ] Conduct a usability test on the revised portfolio website to evaluate the new changes.
-  - [ ] Analyze user feedback from the usability test to identify further improvements.
-  - [ ] Start working on the next set of enhancements based on feedback.
+  - [X] Conduct a usability test on the revised portfolio website to evaluate the new changes.
+  - [X] Analyze user feedback from the usability test to identify further improvements.
+  - [X] Start working on the next set of enhancements based on feedback.
 
-- [ ] Week 11 Nov 11 \- Nov 15:
-  - [ ] Implement any additional design changes identified during the usability test.
-  - [ ] Focus on optimizing the website for mobile responsiveness and performance.
-  - [ ] Create a presentation to showcase the portfolio website and its evolution.
+- [X] Week 11 Nov 11 \- Nov 15:
+  - [X] Implement any additional design changes identified during the usability test.
+  - [X] Focus on optimizing the website for mobile responsiveness and performance.
+  - [X] Create a presentation to showcase the portfolio website and its evolution.
         
-- [ ] Week 12 Nov 18 \- Nov 22:
-  - [ ] Conduct a peer review session to gather final feedback on the portfolio.
-  - [ ] Make any last-minute adjustments based on peer feedback.
-  - [ ] Prepare a comprehensive report summarizing the design process, feedback received, and final outcomes.
+- [X] Week 12 Nov 18 \- Nov 22:
+  - [X] Conduct a peer review session to gather final feedback on the portfolio.
+  - [X] Make any last-minute adjustments based on peer feedback.
+  - [X] Prepare a comprehensive report summarizing the design process, feedback received, and final outcomes.
         
-- [ ] Week 13 Nov 25 \- Nov 29:  
-  - [ ] Thanksgiving
-  - [ ] Reflect on the design journey and compile insights for future projects.
+- [X] Week 13 Nov 25 \- Nov 29:  
+  - [X] Thanksgiving
+  - [X] Reflect on the design journey and compile insights for future projects.
         
-- [ ] Week 14 Dec 2 \- Dec 6:  
-  - [ ] FP4 due
-  - [ ] Ensure the portfolio website is polished and ready for presentation.
-  - [ ] Schedule a final review session with your instructor or peers to showcase the completed project and discuss your design process.
+- [X] Week 14 Dec 2 \- Dec 6:  
+  - [X] FP4 due
+  - [X] Ensure the portfolio website is polished and ready for presentation.
+  - [X] Schedule a final review session with your instructor or peers to showcase the completed project and discuss your design process.
 
 ### *Libraries and Other Components*
 
 List the JS libraries and other components (if applicable) that you plan to use. 
-* React.js: For building the user interface and creating reusable UI components efficiently.
-*Bootstrap: To implement responsive design and pre-styled components for faster development.
-*GSAP (GreenSock Animation Platform): For adding smooth animations and interactive elements to enhance user engagement.
-*Axios: For handling HTTP requests to fetch data if needed (e.g., pulling in dynamic content or API integration).
-*Lodash: For simplifying complex JavaScript functions and improving code efficiency.
-*Framer Motion: To create sophisticated animations for a more polished, interactive user experience.
-*Font Awesome: For incorporating scalable icons and visual elements easily.
-*React Router: To handle navigation between different pages and sections of the portfolio.
-*styled-components: For writing CSS directly in JavaScript, allowing for better component styling and maintainability.
-
+*GSAP (GreenSock Animation Platform): Used for custom animations and interactive effects, such as cursor animations.
+*UserWay Widget: Provides an accessibility widget to enhance usability for all users.
 
 ## Generative AI Use Plan
 
