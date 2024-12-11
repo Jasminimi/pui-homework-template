@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const cursor = document.getElementById("cursor");
 
-    // Update cursor position
     document.addEventListener("mousemove", (e) => {
         gsap.to(cursor, {
             x: e.clientX,
@@ -47,13 +46,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Hover effect for links
-    const links = document.querySelectorAll("a, .hover-target"); // Target links and hoverable elements
+    const links = document.querySelectorAll("a, .hover-target");
     links.forEach((link) => {
         link.addEventListener("mouseenter", () => {
             gsap.to(cursor, {
                 scale: 1.5,
-                backgroundColor: "rgba(255, 0, 0, 0.8)", // Change to red when hovering
+                backgroundColor: "rgba(255, 0, 0, 0.8)",
                 duration: 0.3,
             });
         });
@@ -61,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         link.addEventListener("mouseleave", () => {
             gsap.to(cursor, {
                 scale: 1,
-                backgroundColor: "rgba(255, 255, 255, 0.8)", // Reset color
+                backgroundColor: "rgba(255, 255, 255, 0.8)", 
                 duration: 0.3,
             });
         });
@@ -71,7 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const cursor = document.getElementById("cursor");
 
-    // Hover effect for specific elements
     const targets = document.querySelectorAll("[data-hover-color]");
     targets.forEach((target) => {
         target.addEventListener("mouseenter", () => {
@@ -84,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         target.addEventListener("mouseleave", () => {
             gsap.to(cursor, {
-                backgroundColor: "rgba(255, 255, 255, 0.8)", // Default color
+                backgroundColor: "rgba(255, 255, 255, 0.8)", 
                 duration: 0.3,
             });
         });

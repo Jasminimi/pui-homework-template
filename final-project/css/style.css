@@ -21,18 +21,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 0; /* Increased padding for spacing */
+    padding: 40px 0;
 }
 
 .circle {
-    width: 30px; /* Increased size */
-    height: 30px; /* Increased size */
+    width: 30px; 
+    height: 30px;
     background-color: blue;
     border-radius: 50%;
 }
 
 .name {
-    font-size: 36px; /* Increased font size */
+    font-size: 36px; 
     font-weight: bold;
     text-decoration: none;
     color: white;
@@ -40,14 +40,14 @@ header {
 
 nav {
     display: flex;
-    flex-direction: column; /* Makes the links appear in a column */
-    align-items: flex-start; /* Aligns links to the left */
+    flex-direction: column; 
+    align-items: flex-start;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 18px; /* Original font size */
+    font-size: 18px; 
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -104,15 +104,14 @@ main {
 }
 
 .project-list a:hover ~ .right .design-text {
-    color: yellow; /* Change the text color */
-    font-style: italic; /* Change the font style */
-    transform: scale(1.1); /* Optional animation effect */
+    color: yellow;
+    font-style: italic; 
 }
 
 .project-list a:hover ~ .right .image-container img {
-    filter: grayscale(50%); /* Add a grayscale filter for the image */
-    transform: scale(1.1); /* Slight zoom effect */
-    transition: all 0.3s ease; /* Smooth transition */
+    filter: grayscale(50%); 
+    transform: scale(1.1); 
+    transition: all 0.3s ease; 
 }
 
 .design-text {
@@ -142,7 +141,7 @@ main {
 
     nav {
         margin-top: 10px;
-        align-items: center; /* Center links on smaller screens */
+        align-items: center; 
     }
 
     main {
@@ -174,8 +173,8 @@ main {
     }
 
     nav a {
-        font-size: 12px; /* Adjusted font size for smaller screens */
-        margin-left: 0; /* No extra margin for column layout */
+        font-size: 12px; 
+        margin-left: 0; 
     }
 
     .project-list {
@@ -184,16 +183,16 @@ main {
 }
 
 footer {
-    background-color: #000; /* Matches the website's background */
-    color: rgb(169, 169, 169); /* Gray text */
+    background-color: #000; 
+    color: rgb(169, 169, 169); 
     text-align: center;
     padding: 20px 0;
-    margin-top: 50px; /* Adds spacing between main content and footer */
+    margin-top: 50px; 
     font-size: 14px;
 }
 
 footer .copyright {
-    opacity: 0.7; /* Consistent opacity for subtle appearance */
+    opacity: 0.7; 
     margin-top: 5%;
 }
 
@@ -211,8 +210,8 @@ footer .copyright {
 .content-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align content to the top */
-    gap: 20px; /* Space between text and iframe */
+    align-items: flex-start; 
+    gap: 20px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -220,8 +219,8 @@ footer .copyright {
 
 /* Text Section Styling */
 .text-section {
-    flex: 1; /* Allow text to take up remaining space */
-    max-width: 400px; /* Limit the width of text content */
+    flex: 1; 
+    max-width: 400px; 
 }
 
 .body-text {
@@ -255,15 +254,15 @@ footer .copyright {
 .contact-link .icon {
     width: 24px;
     height: 24px;
-    margin-right: 10px; /* Space between icon and text */
+    margin-right: 10px; 
 }
 
 /* Iframe Styling */
 .resume-frame {
-    flex: 2; /* Take two-thirds of the space */
-    width: 100%; /* Ensure the iframe takes full width of its container */
+    flex: 2;
+    width: 100%;
     max-width: 800px;
-    height: 80vh; /* Height is 80% of the viewport height */
+    height: 80vh; 
     border: 2px solid gray;
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -280,7 +279,7 @@ footer .copyright {
     color: white;
     text-align: left;
     position: relative;
-    overflow: hidden; /* For background animations */
+    overflow: hidden;
 }
 
 /* Gradient Animation */
@@ -313,8 +312,8 @@ footer .copyright {
 }
 
 .profile-photo:hover {
-    transform: scale(1.1); /* Zoom effect */
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5); /* More prominent shadow on hover */
+    transform: scale(1.1);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 /* About Text Styling */
@@ -334,7 +333,7 @@ footer .copyright {
     background: linear-gradient(to right, #fffb07, #190dff);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Gradient text effect */
+    -webkit-text-fill-color: transparent; 
     animation: text-glow 2s infinite alternate;
 }
 
@@ -378,14 +377,14 @@ footer .copyright {
     position: fixed;
     top: 0;
     left: 0;
-    width: 25px; /* Circle size */
+    width: 25px; 
     height: 25px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.8);
     pointer-events: none;
     mix-blend-mode: exclusion;
     z-index: 1000;
-    transform: translate(-50%, -50%); /* Center the cursor on the pointer */
+    transform: translate(-50%, -50%); 
 }
 
 /* Remove default pointer on interactive elements */
@@ -442,16 +441,16 @@ a, button, .hover-target {
 }
 
 .gallery-item:hover img {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+    transform: scale(1.1); 
 }
 
 .project-title {
     font-size: 20px;
     font-weight: bold;
     display: flex;
-    flex-direction: column; /* Changed to column layout */
+    flex-direction: column; 
     align-items: left;
-    line-height: 0; /* Remove spacing between text */
+    line-height: 0; 
 }
 
 .project-gallery {
