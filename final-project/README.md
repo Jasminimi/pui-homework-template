@@ -3,6 +3,23 @@
 <mark>Please sign up for the study</mark> at [https://tinyurl.com/pui-study](https://tinyurl.com/pui-study) to allow us to use your submission to create a better GenAI assistant for designers!
 
 ---
+# **Appendix \- WAVE Screenshots**
+
+*main page
+![mainPage](images/WAVEmainpage1.png)
+![mainPageDetail](images/WAVEmainpage2.png)
+
+*paris olympic project page
+![projectPage](images/WAVEprojectpage1.png)
+![projectPageDetail](images/WAVEprojectpage2.png)
+
+*about page
+![aboutPage](images/WAVEaboutpage1.png)
+![aboutPageDetail](images/WAVEaboutpage2.png)
+
+*resume page
+![resumePage](images/WAVEresumepage1.png)
+![resumePageDetail](images/WAVEresumepage2.png)
 
 # **FP4 \- Final Project Writeup**
 
